@@ -5,7 +5,7 @@
 // 4.导出一个函数，调用当前的axsio实例发请求，返回值promise
 import router from '@/router'
 import store from '@/store'
-import axios from 'aioxs'
+import axios from 'axios'
 // 1
 // 导出基准地址，原因：其他地方不是通过axios发请求的地方用上基准地址
 export const baseURL = 'http://pcapi-xiaotuxian-front-devtest.itheima.net/'
