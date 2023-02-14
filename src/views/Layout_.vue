@@ -11,16 +11,17 @@
     <RouterView />
   </div>
   <!-- 底部组件 -->
-  <footer>111</footer>
+  <AppFooter />
 </template>
 <script>
 import { useStore } from 'vuex'
 import AppNavBar from '@/components/app-namebar.vue'
 import AppHeader from '@/components/app-header.vue'
 import AppHeaderSticky from '@/components/app-header-sticky.vue'
+import AppFooter from '@/components/app-footer.vue'
 export default {
   name: 'Layout_',
-  components: { AppNavBar, AppHeader, AppHeaderSticky },
+  components: { AppNavBar, AppHeader, AppHeaderSticky, AppFooter },
   setup () {
     // 获取分类数据
     const store = useStore()
